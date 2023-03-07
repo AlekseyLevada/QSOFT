@@ -73,10 +73,10 @@ input, input:focus-visible {
     margin-bottom: 12px;
 }
 
-.header__rectangle {
+.header__profile_container {
+    width: 149px;
     height: 80px;
-    width: 1px;
-    background-color: #EBEBF1;
+    border-left: 1px solid #EBEBF1;
 }
 
 .header__profile {
