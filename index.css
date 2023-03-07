@@ -107,7 +107,91 @@ input, input:focus-visible {
     line-height: 57.6px;
     color: #121920;
     text-transform: uppercase;
+    margin: 0 100px;
+}
+
+.partners__container {
     max-width: 1240px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partner__item {
+    width: 287.5px;
+    height: 120px;
+    background: #FFFFFF;
+    border: 1px solid #EBEBF1;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.partner__img_prop {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.partner__item:nth-child(1) {
+    width: 287.5px;
+    height: 120px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Henkel-Logo.svg/2560px-Henkel-Logo.svg.png');
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+
+.partner__item:nth-child(2) {
+    width: 287.5px;
+    height: 120px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/ru/thumb/c/cf/John_Deere_logo.svg/640px-John_Deere_logo.svg.png');
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+
+.partner__item:nth-child(3) {
+    width: 287.5px;
+    height: 120px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/McDonald%27s_logo.svg/2560px-McDonald%27s_logo.svg.png');
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+
+.partner__item:nth-child(4) {
+    width: 287.5px;
+    height: 120px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ikea_logo.svg/1280px-Ikea_logo.svg.png');
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+
+.partner__item:nth-child(5) {
+    width: 287.5px;
+    height: 120px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Reebok_delta_logo.svg/1280px-Reebok_delta_logo.svg.png');
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+
+.partner__item:nth-child(6) {
+    width: 287.5px;
+    height: 120px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/94/Old_Nike_logo.jpg');
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+
+.partner__item:nth-child(7) {
+    width: 287.5px;
+    height: 120px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Caterpillar_logo.svg/2560px-Caterpillar_logo.svg.png');
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
 }
 
 
