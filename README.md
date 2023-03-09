@@ -1,2 +1,0 @@
-# QSOFT
-QSOFT testing layout
