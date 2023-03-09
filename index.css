@@ -273,11 +273,12 @@ input, input:focus {
 
 @media (max-width:376px) {
 
-    .wrapper {
-        min-height: 1423px;
-    }
     .partners__title p {
         line-height: 160%;
+    }
+
+    .partner__list {
+        margin-bottom: 70px;
     }
 
     .partners__item {
