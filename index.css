@@ -272,12 +272,11 @@ input, input:focus {
 }
 
 @media (max-width:376px) {
-
     .partners__title p {
         line-height: 160%;
     }
 
-    .partner__list {
+    .partners__list {
         margin-bottom: 70px;
     }
 
