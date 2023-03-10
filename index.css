@@ -42,6 +42,7 @@ body {
     margin-right: 61px;
     margin-top: 24px;
     margin-bottom: 24px;
+    cursor: pointer;
 }
 
 .search__block {
@@ -74,6 +75,7 @@ input, input:focus {
     background-color: transparent;
     border: none;
     margin: 8px 10px;
+    cursor: pointer;
 }
 
 .header__border {
@@ -88,6 +90,7 @@ input, input:focus {
 .profile {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .profile__name {
@@ -119,25 +122,18 @@ input, input:focus {
     list-style: none;
     display: flex;
     align-content: flex-start;
-    justify-content: flex-start;
     margin: 0 100px;
     flex-wrap: wrap;
     gap: 25px;
 }
 
-.partners__link {
-    display: flex;
-    flex: 0 0 23%;
-}
-
 .partners__item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border: 1px solid #EBEBF1;
     border-radius: 5px;
     transition: all .3s;
-    height: 120px;
+    min-height: 120px;
+    flex: 0 0 23%;
+    cursor: pointer;
 }
 
 .partners__item:hover {
@@ -145,9 +141,40 @@ input, input:focus {
     transition: all .3s;
 }
 
-.partners__img {
-    width: 40%;
+.img__prop {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+
+.first__template {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Henkel-Logo.svg/2560px-Henkel-Logo.svg.png');
+}
+
+.second__template {
+    background-image: url('https://upload.wikimedia.org/wikipedia/ru/thumb/c/cf/John_Deere_logo.svg/640px-John_Deere_logo.svg.png');
+}
+
+.third__template {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/McDonald%27s_logo.svg/2560px-McDonald%27s_logo.svg.png');
+}
+
+.fourth__template {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ikea_logo.svg/1280px-Ikea_logo.svg.png');
+}
+
+.fifth__template {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Reebok_delta_logo.svg/1280px-Reebok_delta_logo.svg.png');
+}
+
+.sixth__template {
+    background-image: url('https://i.pinimg.com/736x/98/76/e9/9876e9bb9dc204d6fc78d8c47a2aa863.jpg');
+}
+
+.seventh__template {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Caterpillar_logo.svg/2560px-Caterpillar_logo.svg.png');
+}
+
 
 .header__mobile {
     display: flex;
@@ -189,6 +216,11 @@ input, input:focus {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.header__mobile_user, .header__mobile_logo {
+    cursor: pointer;
 }
 
 
@@ -232,7 +264,7 @@ input, input:focus {
         gap: 20px;
     }
 
-    .partners__link {
+    .partners__item {
         flex: 0 0 31%;
     }
 }
@@ -247,14 +279,14 @@ input, input:focus {
         line-height: 43px;
     }
 
-    .partners__link {
+    .partners__item {
         flex: 0 0 31.3%;
     }
 }
 
-@media (max-width:760px) {
-    .partners__link {
-        flex: 0 0 45%;
+@media (max-width:698px) {
+    .partners__item {
+        flex: 0 0 48%;
     }
 }
 
@@ -264,33 +296,16 @@ input, input:focus {
     }
 }
 
-@media (max-width:480px) {
-
-    .partners__list {
-        flex-direction: column;
-    }
-}
-
-@media (max-width:376px) {
-    .partners__title p {
-        line-height: 160%;
-    }
-
-    .partners__list {
-        margin-bottom: 70px;
-    }
-
+@media (max-width:539px) {
     .partners__item {
-        height: 140px;
+        flex: 1 0 48%;
+        min-height: 140px;
     }
-}
 
-@media (min-width:375px) and (max-width:480px) {
     .partners__list {
         margin-bottom: 70px;
     }
 }
-
 
 
 
